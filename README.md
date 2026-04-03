@@ -2,12 +2,18 @@
 
 ## 🇬🇧 English Version
 
-### Overview
-FL_Ultimate_Adaptative is a research-oriented framework for evaluating the robustness of Federated Learning systems under adversarial conditions, particularly in Cyber-Physical Systems (CPS), IoT, and OT environments.
+### 🔬 Overview
 
-This repository provides both:
-- the original experimental benchmark used in the associated research
-- a modular and extensible framework for future experimentation
+FL_Ultimate_Adaptative is a research-oriented framework designed to evaluate and enhance the robustness of Federated Learning (FL) systems under adversarial conditions.
+
+Focus areas:
+- Cyber-Physical Systems (CPS)
+- Internet of Things (IoT)
+- Operational Technology (OT)
+
+It provides:
+- Original experimental benchmark (paper reproduction)
+- Modular framework for future research
 
 ---
 
@@ -19,23 +25,40 @@ FL_Ultimate_Adaptative/
 ├── configs/
 ├── scripts/
 ├── results/
+└── docs/
 
 ---
 
 ### Original Benchmark
 
-The directory original_benchmark/ contains the exact scripts and notebooks used to generate the results presented in the paper.
+Contains the exact scripts and notebooks used in the paper.
+
+Attack scenarios:
+- On-Off Attack
+- Sybil Attack
+- Backdoor Attack
+- Model Replacement
 
 ---
 
-### How to Run
+### ▶How to Run
 
 cd original_benchmark
 bash scripts/run_sybil.sh
 
 ---
 
-### License
+### Results
+
+results/
+├── raw/
+├── processed/
+├── tables/
+└── figures/
+
+---
+
+### 📄 License
 
 MIT License
 
@@ -44,17 +67,18 @@ MIT License
 ## 🇧🇷 Versão em Português
 
 ### Visão Geral
-FL_Ultimate_Adaptative é um framework de pesquisa para avaliação da robustez de sistemas de Aprendizado Federado sob condições adversariais.
+
+Framework de pesquisa para avaliar robustez de aprendizado federado sob ataques adversariais.
 
 ---
 
-### Como Executar
+###  Como Executar
 
 cd original_benchmark
 bash scripts/run_sybil.sh
 
 ---
 
-### Licença
+### 📄 Licença
 
 MIT License
